@@ -1,0 +1,231 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+#hero{
+  min-height: 100vh;
+  width:100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(../images/Rectangle\ 47.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+ max-width: 800px;
+
+}
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-card h1{
+  font-size: 60px;
+  color: white;
+}
+.title-card p{
+  font-size: 18px;
+  color:#D2D2D2 ;
+  margin-top: 30px;
+}
+.title-card button{
+  width: 179px;
+  height: 50px;
+  font-size: 14px;
+  color: white;
+  background-color:#0E9E2F ;
+  border-radius: 5px;
+  border: none;
+margin-top: 30px;
+}
+
+
+
+#content{
+  padding-top: 90px;
+padding-bottom: 90px;
+background-color: #686868;
+}
+.hero-content{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ margin-top: 60px;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.desc{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 26px;
+  color: white;
+}
+.title-desc{
+  margin-top: 60px;
+  padding-top: 60px;
+  box-shadow: 15px 15px 15px 10px gray;
+  gap: 30px;
+}
+.title-desc h3{
+  font-size: 24px;
+  color:white;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: cursive;
+}
+.title-desc p{
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.title-desc button{
+  width: 200px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  color: white;
+  background-color: #0E9E2F;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.title-desc img{
+  margin-left: 80px;
+}
+
+
+#subtitle{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#subtitle h1{
+  color: black;
+  text-align: center;
+}
+.subtitle-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image{
+  margin-top: 30px;
+}
+.subtitle-card h2{
+  font-size: 30px;
+  color: #0E9E2F;
+}
+.subtitle-card p{
+  font-size: 16px;
+  color: #92938F;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+
+#rasm{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container{
+  width: 100%;
+}
+.cardlar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.cardlar img{
+  width: 400px;
+}
+
+
+
+
+
+
+#info{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.container{
+  max-width: 1200px;
+width: 100%;
+}
+.infos h1{
+  font-size: 30px;
+  color: #0E9E2F;
+  margin-right: 20px;
+}
+.infos p{
+  font-size: 16px;
+  color: #92938F;
+  margin-top: 30px;
+  margin-right: 20px;
+  line-height: 25px;
+}
+.info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.image{
+  width: 800px;
+}
+
+
+
+#project{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.project-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projects h1{
+  font-size: 30px;
+  color: #0E9E2F;
+}
+.projects p{
+  font-size: 16px;
+  color: #92938F;
+  margin-top: 20px;
+}
